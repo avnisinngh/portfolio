@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Menu, X, Github, Linkedin, Mail, Youtube, Instagram, ExternalLink, Code, Zap, Star, BookOpen, Trophy, Briefcase } from 'lucide-react';
 import profileImage from './image.jpeg';
+import week1Image from './week1.png';
+import week2Image from './WEEK2.png';
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -131,6 +133,7 @@ function App() {
             <a href="#coding" className="hover:text-[#FFB2AF] font-bold">CODING</a>
               <a href="#work" className="hover:text-[#FF6B6B] font-bold">PROJECT</a>
               <a href="#experience" className="hover:text-[#4ECDC4] font-bold">EXPERIENCE</a>
+              <a href="#achi" className="hover:text-[#4ECDC4] font-bold">ACHIEVEMENTS</a>
               <a href="#skills" className="hover:text-[#FFE66D] font-bold">SKILLS</a>
               <a href="#contact" className="neo-brutalist-sm px-4 py-2 bg-black text-white hover:bg-[#FF6B6B] transition-colors">
                 CONTACT
@@ -154,6 +157,7 @@ function App() {
               <a href="#coding" className="block px-3 py-2 text-base font-bold">CODING</a>
               <a href="#work" className="block px-3 py-2 text-base font-bold">PROJECT</a>
               <a href="#experience" className="block px-3 py-2 text-base font-bold">EXPERIENCE</a>
+              <a href="#achi" className="block px-3 py-2 text-base font-bold">ACHIEVEMENTS</a>
               <a href="#skills" className="block px-3 py-2 text-base font-bold">SKILLS</a>
               <a href="#contact" className="block px-3 py-2 text-base font-bold">CONTACT</a>
             </div>
@@ -189,12 +193,12 @@ function App() {
                   </a>
                 </div>
               </div>
-              <div>
-                <div className="neo-brutalist overflow-hidden">
+              <div className='display-flex justify-center'>
+                <div className="neo-brutalist overflow-hidden justify-center">
                   <img
                     src={profileImage}
                     alt="Profile"
-                    className="w-full h-[400px] object-cover hover:scale-100 transition-transform duration-300"
+                    className="w-full h-[300px] sm:h-[400px] object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
               </div>
@@ -289,7 +293,7 @@ function App() {
           </div>
           </div>
 
-          <h2 className="text-4xl font-bold mb-12">HACKATHONS & ACHIEVEMENTS</h2>
+          <h2 id="achi" className="text-4xl font-bold mb-12">HACKATHONS & ACHIEVEMENTS</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {hackathons.map((hack, index) => (
               <div
@@ -305,6 +309,25 @@ function App() {
               </div>
             ))}
           </div>
+        </div>
+        
+      </section>
+
+      {/* Google cloud arcade */}
+      <section id="arcade" className="py-20 px-4">
+      <div className="neo-brutalist bg-[#E3DFF2] p-8 md:p-16 mb-8">
+        <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl font-bold mb-12">GOOGLE CLOUD ARCADE</h2>
+        <div className="grid md:grid-cols-4 gap-8">
+          <a href="https://www.cloudskillsboost.google/public_profiles/572bcc60-dd81-465a-b173-09599f1427c4/badges/14304764" target="_blank" rel="noopener noreferrer" className="neo-brutalist bg-[#C4A1FF] p-8 hover:transform hover:-translate-y-2 transition-transform flex justify-center">
+            <img src={week1Image} alt="Google Cloud Badge 1" className="w-32 h-32" />
+           </a>
+          <a href="https://www.cloudskillsboost.google/public_profiles/572bcc60-dd81-465a-b173-09599f1427c4/badges/14310172" target="_blank" rel="noopener noreferrer" className="neo-brutalist bg-[#C4A1FF] p-8 hover:transform hover:-translate-y-2 transition-transform flex justify-center">
+            <img src={week2Image} alt="Google Cloud Badge 2" className="w-32 h-32" />
+          </a>
+          
+        </div>
+        </div>
         </div>
       </section>
 

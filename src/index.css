@@ -1,3 +1,5 @@
+/* Responsive styles for cards and components */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -41,4 +43,135 @@
   100% {
     transform: translateX(-100%);
   }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1 { font-size: 2rem !important; }
+  h2 { font-size: 1.75rem !important; }
+  h3 { font-size: 1.25rem !important; }
+  p  { font-size: 0.875rem !important; }
+  .p-6 { padding: 1rem !important; }
+  .p-8 { padding: 1.5rem !important; }
+  .p-16 { padding: 2rem !important; }
+  .max-w-sm, .max-w-md, .max-w-lg, .max-w-xl {
+    max-width: 100% !important;
+  }
+  img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+  }
+  img:hover {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 640px) {
+  .neo-brutalist {
+    border-width: 2px;
+    box-shadow: 4px 4px 0px 0px #000000;
+  }
+
+  .neo-brutalist-sm {
+    border-width: 1px;
+    box-shadow: 2px 2px 0px 0px #000000;
+  }
+
+  .neo-brutalist-hover:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px 0px #000000;
+  }
+
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0.75rem !important;
+  }
+
+  .flex-col-sm {
+    flex-direction: column !important;
+  }
+
+  .text-center-sm {
+    text-align: center !important;
+  }
+
+  .hover\:scale-105:hover {
+    transform: none !important;
+  }
+
+  .mb-8 { margin-bottom: 1.5rem !important; }
+  .mb-4 { margin-bottom: 1rem !important; }
+
+  .gap-4 {
+    gap: 0.75rem !important;
+  }
+
+  img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+  }
+  img:hover {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 400px) {
+  .neo-brutalist {
+    border-width: 1px;
+    box-shadow: 2px 2px 0px 0px #000000;
+  }
+
+  .neo-brutalist-sm {
+    border-width: 1px;
+    box-shadow: 1px 1px 0px 0px #000000;
+  }
+
+  .neo-brutalist-hover:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0px 0px #000000;
+  }
+
+  h1 { font-size: 1.5rem !important; }
+  h2 { font-size: 1.25rem !important; }
+  h3 { font-size: 1rem !important; }
+  p  { font-size: 0.75rem !important; }
+
+  .p-6, .p-8, .p-16 { padding: 0.5rem !important; }
+
+  .gap-4 {
+    gap: 0.5rem !important;
+  }
+
+  img {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+  }
+  img:hover {
+    transform: scale(1);
+  }
+}
+
+/* Custom class to ensure consistency across components */
+.responsive-card {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Applied responsive-card class to all component wrappers */
+.responsive-card-wrapper {
+  width: 100%;
+  max-width: 100%;
 }
