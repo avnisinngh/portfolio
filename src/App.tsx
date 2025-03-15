@@ -75,7 +75,7 @@ function App() {
     },
     {
       name: "SOCIAL WINTER OF CODE 2025",
-      position: "6TH RANK",
+      position: "5TH RANK",
       description: "OPEN SOURCE Contributer",
       color: "bg-[#ecbcfd]"
     },
