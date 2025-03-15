@@ -12,35 +12,35 @@ function App() {
       description: " Python-based Port Scanner that scans a range of ports on a given target IP to check for open ports",
       tech: ["Python", "Socket.IO", "Threading"],
       link: "https://github.com/avnisinngh/Port-Scanner",
-      color: "bg-[#C4A1FF]"
+      color: "bg-[#ffcbf2]"
     },
     {
       title: "OMNI AI",
       description: "Centralized AI platform",
       tech: ["AI/ML","TypeScript","MERN Stack"],
       link: "https://github.com/avnisinngh/HACKWITHINDIA",
-      color: "bg-[#CFDFFF]"
+      color: "bg-[#ffcbf2]"
     },
     {
       title: "Nourish Connect",
       description: "A digital platform to eliminate food wastage and hunger in underserved communities",
       tech: ["MERN Stack"],
       link: "https://github.com/avnisinngh/CODE_KSHETRA/tree/main",
-      color: "bg-[#FF69B4]"
+      color: "bg-[#ffcbf2]"
     },
     {
       title: "Recognition-and-Detection-of-Modulated-Waveforms",
       description: "automatic recognition and classification of modulated waveforms using machine learning",
       tech: ["Python", "Rainforest"],
       link: "https://github.com/avnisinngh/Recognition-and-Detection-of-Modulated-Waveforms",
-      color: "bg-[#E3A018]"
+      color: "bg-[#ffcbf2]"
     },
     {
       title: "Voting_Application",
       description: "A secure and simple voting system where users can cast votes, and administrators can manage candidates and view voting results.",
       tech: ["MERN Stack"],
       link: "https://github.com/avnisinngh/Voting_Application",
-      color: "bg-[#69D2A7]"
+      color: "bg-[#ffcbf2]"
     }
   ];
 
@@ -50,7 +50,7 @@ function App() {
       company: "OMNITRIX BUISNESS SERVICES PVT. LTD",
       period: "JAN 2025 - PRESENT",
       description: "Researching emerging threats, vulnerabilities, and cybersecurity trends. ",
-      color: "bg-[#FFB2EF]"
+      color: "bg-[#f3c4fb]"
     }
   ];
 
@@ -59,37 +59,37 @@ function App() {
       name: "SMART INDIA HACKATHON 2025",
       position: "GRAND-FINALISTS",
       description: "Build Recognition and Detection of Modulated Waveforms System",
-      color: "bg-[#FFE66D]"
+      color: "bg-[#ecbcfd]"
     },
     {
       name: "CODE-KSHETRA 2.0",
       position: "FINALIST",
       description: "Developed a digital platform to eliminate food wastage and hunger in underserved communities ",
-      color: "bg-[#FCDFFF]"
+      color: "bg-[#ecbcfd]"
     },
     {
       name: "BUILD WITH INDIA",
       position: "SEMI-FINALIST",
       description: "Developed a centralized AI platform  ",
-      color: "bg-[#FFB2EF]"
+      color: "bg-[#ecbcfd]"
     },
     {
       name: "SOCIAL WINTER OF CODE 2025",
       position: "6TH RANK",
       description: "OPEN SOURCE Contributer",
-      color: "bg-[#DAF5F0]"
+      color: "bg-[#ecbcfd]"
     },
     {
       name: "GURU TECH PRESENTATIONS",
       position: "RUNNER UP",
       description: "Presented a presentaion of digitalization",
-      color: "bg-[#FFB2AF]"
+      color: "bg-[#ecbcfd]"
     },
     {
       name: "CODE-O-GEEKS 2.0",
       position: "SECOND RUNNER UP",
       description: "Coding competion",
-      color: "bg-[#FFD2FF]"
+      color: "bg-[#ecbcfd]"
     }
     
   ];
@@ -168,12 +168,12 @@ function App() {
       {/* Hero Section */}
       <section id="about" className="pt-32 pb-20 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="neo-brutalist bg-[#FFE66D] p-8 md:p-16 mb-8">
+          <div className="neo-brutalist bg-[#c8e7ff] p-8 md:p-16 mb-8">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 
-                  <span className="text-[#FF6B6B]">Multidimensional Creator & Developer</span>
+                  <span className="text-[#a20ebb]">Multidimensional Creator & Developer</span>
                 </h1>
                 <p className="text-xl md:text-2xl max-w-2xl mb-8">
                 Crafting Digital Experiences with Code, Content,Open Source and Cybersecurity Curiosity.
@@ -215,19 +215,19 @@ function App() {
 
       {/* Coding profiles Section */}
       <section id="coding" className="py-20 px-4 ">
-      <div className="neo-brutalist bg-[#69D2A7] p-8 md:p-16 mb-8">
+      <div className="neo-brutalist bg-[#e2afff] p-8 md:p-16 mb-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-12">CODING PROFILES</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <a href={"https://leetcode.com/u/avnisinngh/"} className="neo-brutalist bg-[#B5D2AD] p-8 hover:transform hover:-translate-y-2 transition-transform">
+            <a href={"https://leetcode.com/u/avnisinngh/"} className="neo-brutalist bg-[#ffcbf2] p-8 hover:transform hover:-translate-y-2 transition-transform">
               <h3 className="text-2xl font-bold mb-2">LEETCODE</h3>
               <p>solved +250 questions</p>
             </a>
-            <a href={"https://codeforces.com/profile/avnidns"} className="neo-brutalist bg-[#A7BDB8] p-8 hover:transform hover:-translate-y-2 transition-transform">
+            <a href={"https://codeforces.com/profile/avnidns"} className="neo-brutalist bg-[#ffcbf2] p-8 hover:transform hover:-translate-y-2 transition-transform">
               <h3 className="text-2xl font-bold mb-2">CODEFORCES</h3>
               <p>solved +70 questions</p>
             </a>
-            <a href={"https://www.codechef.com/users/avnisinngh"} className="neo-brutalist bg-[#FF7A56] p-8 hover:transform hover:-translate-y-2 transition-transform">
+            <a href={"https://www.codechef.com/users/avnisinngh"} className="neo-brutalist bg-[#ffcbf2] p-8 hover:transform hover:-translate-y-2 transition-transform">
               <h3 className="text-2xl font-bold mb-2">CODECHEF</h3>
               <p>2 star, solved +100 questions</p>
             </a>
@@ -238,7 +238,7 @@ function App() {
 
       {/* Projects Section */}
       <section id="work" className="py-20 px-4">
-      <div className="neo-brutalist bg-[#E3DFF2] p-8 md:p-16 mb-8">
+      <div className="neo-brutalist bg-[#c0fdff] p-8 md:p-16 mb-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-12">PROJECSTS</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -271,7 +271,7 @@ function App() {
 
       {/* Experience Section */}
       <section id="experience" className="py-20 px-4 ">
-      <div className="neo-brutalist bg-[#FF69B4] p-8 md:p-16 mb-8">
+      <div className="neo-brutalist bg-[#c8e7ff] p-8 md:p-16 mb-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-12">EXPERIENCE</h2>
           <div className="grid md:grid-cols-2 gap-8 mb-16">
@@ -315,14 +315,14 @@ function App() {
 
       {/* Google cloud arcade */}
       <section id="arcade" className="py-20 px-4">
-      <div className="neo-brutalist bg-[#E3DFF2] p-8 md:p-16 mb-8">
+      <div className="neo-brutalist bg-[#d0d1ff] p-8 md:p-16 mb-8">
         <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold mb-12">GOOGLE CLOUD ARCADE</h2>
         <div className="grid md:grid-cols-4 gap-8">
-          <a href="https://www.cloudskillsboost.google/public_profiles/572bcc60-dd81-465a-b173-09599f1427c4/badges/14304764" target="_blank" rel="noopener noreferrer" className="neo-brutalist bg-[#C4A1FF] p-8 hover:transform hover:-translate-y-2 transition-transform flex justify-center">
+          <a href="https://www.cloudskillsboost.google/public_profiles/572bcc60-dd81-465a-b173-09599f1427c4/badges/14304764" target="_blank" rel="noopener noreferrer" className="neo-brutalist bg-[#e5b3fe] p-8 hover:transform hover:-translate-y-2 transition-transform flex justify-center">
             <img src={week1Image} alt="Google Cloud Badge 1" className="w-32 h-32" />
            </a>
-          <a href="https://www.cloudskillsboost.google/public_profiles/572bcc60-dd81-465a-b173-09599f1427c4/badges/14310172" target="_blank" rel="noopener noreferrer" className="neo-brutalist bg-[#C4A1FF] p-8 hover:transform hover:-translate-y-2 transition-transform flex justify-center">
+          <a href="https://www.cloudskillsboost.google/public_profiles/572bcc60-dd81-465a-b173-09599f1427c4/badges/14310172" target="_blank" rel="noopener noreferrer" className="neo-brutalist bg-[#e5b3fe] p-8 hover:transform hover:-translate-y-2 transition-transform flex justify-center">
             <img src={week2Image} alt="Google Cloud Badge 2" className="w-32 h-32" />
           </a>
           
@@ -333,7 +333,7 @@ function App() {
 
       {/* Skills Section */}
       <section id="skills" className="py-20 px-4">
-      <div className="neo-brutalist bg-[#FFE66D] p-8 md:p-16 mb-8">
+      <div className="neo-brutalist bg-[#deaaff] p-8 md:p-16 mb-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-12">SKILLS & EXPERTISE</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -361,21 +361,21 @@ function App() {
 
       {/* Content Creation Section */}
       <section id="content" className="py-20 px-4 ">
-      <div className="neo-brutalist bg-[#E3A018] p-8 md:p-16 mb-8">
+      <div className="neo-brutalist bg-[#ffcbf2] p-8 md:p-16 mb-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-12">CONTENT CREATION</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <a href={socialLinks.youtube} className="neo-brutalist bg-[#FF7A5C] p-8 hover:transform hover:-translate-y-2 transition-transform">
+            <a href={socialLinks.youtube} className="neo-brutalist bg-[#c0fdff] p-8 hover:transform hover:-translate-y-2 transition-transform">
               <Youtube size={32} className="mb-4" />
               <h3 className="text-2xl font-bold mb-2">YouTube</h3>
               <p>Tech tutorials & coding tips</p>
             </a>
-            <a href={socialLinks.instagram} className="neo-brutalist bg-[#C4A1FF] p-8 hover:transform hover:-translate-y-2 transition-transform">
+            <a href={socialLinks.instagram} className="neo-brutalist bg-[#c0fdff] p-8 hover:transform hover:-translate-y-2 transition-transform">
               <Instagram size={32} className="mb-4" />
               <h3 className="text-2xl font-bold mb-2">Instagram</h3>
               <p>Behind the scenes & tech life</p>
             </a>
-            <a href="#" className="neo-brutalist bg-[#B5D2AD] p-8 hover:transform hover:-translate-y-2 transition-transform">
+            <a href="#" className="neo-brutalist bg-[#c0fdff] p-8 hover:transform hover:-translate-y-2 transition-transform">
               <BookOpen size={32} className="mb-4" />
               <h3 className="text-2xl font-bold mb-2">Blog</h3>
               <p>In-depth technical articles</p>
@@ -388,7 +388,7 @@ function App() {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="neo-brutalist bg-[#FFE66D] p-8 md:p-16">
+          <div className="neo-brutalist bg-[#249fff] p-8 md:p-16">
             <h2 className="text-4xl font-bold mb-8">LET'S WORK TOGETHER</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -397,22 +397,22 @@ function App() {
                 </p>
                 <a
                   href={"avni.dns@gmail.com"}
-                  className="neo-brutalist-sm inline-block bg-black text-white px-8 py-4 text-lg font-bold hover:bg-[#4ECDC4] transition-colors"
+                  className="neo-brutalist-sm inline-block bg-black text-white px-8 py-4 text-lg font-bold hover:bg-[#d32cef] transition-colors"
                 >
                   SAY HELLO
                 </a>
               </div>
               <div className="flex gap-4">
-                <a href={"https://github.com/avnisinngh"} className="neo-brutalist-sm p-4 bg-white hover:bg-[#FFE66D] transition-colors neo-brutalist-hover p-6 neo-brutalist-card group animate-scale transition-all">
+                <a href={"https://github.com/avnisinngh"} className="neo-brutalist-sm p-4 bg-white hover:bg-[#deaaff] transition-colors neo-brutalist-hover p-6 neo-brutalist-card group animate-scale transition-all">
                   <Github size={24} />
                 </a>
-                <a href={"https://www.linkedin.com/in/avni-singh-49a44a289/"} className="neo-brutalist-sm p-4 bg-white hover:bg-[#FFE66D] transition-colors neo-brutalist-hover p-6 neo-brutalist-card group animate-scale transition-all">
+                <a href={"https://www.linkedin.com/in/avni-singh-49a44a289/"} className="neo-brutalist-sm p-4 bg-white hover:bg-[#deaaff] transition-colors neo-brutalist-hover p-6 neo-brutalist-card group animate-scale transition-all">
                   <Linkedin size={24} />
                 </a>
-                <a href={"https://www.youtube.com/@avnisinngh"} className="neo-brutalist-sm p-4 bg-white hover:bg-[#FFE66D] transition-colors neo-brutalist-hover p-6 neo-brutalist-card group animate-scale transition-all">
+                <a href={"https://www.youtube.com/@avnisinngh"} className="neo-brutalist-sm p-4 bg-white hover:bg-[#deaaff] transition-colors neo-brutalist-hover p-6 neo-brutalist-card group animate-scale transition-all">
                   <Youtube size={24} />
                 </a>
-                <a href={"https://www.instagram.com/codecademia/"} className="neo-brutalist-sm p-4 bg-white hover:bg-[#FFE66D] transition-colors neo-brutalist-hover p-6 neo-brutalist-card group animate-scale transition-all">
+                <a href={"https://www.instagram.com/codecademia/"} className="neo-brutalist-sm p-4 bg-white hover:bg-[#deaaff] transition-colors neo-brutalist-hover p-6 neo-brutalist-card group animate-scale transition-all">
                   <Instagram size={24} />
                 </a>
               </div>
