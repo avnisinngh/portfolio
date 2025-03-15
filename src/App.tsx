@@ -425,7 +425,7 @@ function App() {
       <footer className="border-t-4 border-black py-8 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <p className="font-bold">
-            © {new Date().getFullYear()} • CRAFTED WITH CODE IN THE DIGITAL REALM
+            © {new Date().getFullYear()} •   MADE BY AVNI SINGH
           </p>
         </div>
       </footer>
