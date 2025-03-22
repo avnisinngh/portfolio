@@ -74,6 +74,12 @@ function App() {
       color: "bg-[#ecbcfd]"
     },
     {
+      name: "CODEWITHDCG",
+      position: "FINALIST",
+      description: "Top 20 team to be selected for offline round at DTU",
+      color: "bg-[#ecbcfd]"
+    },
+    {
       name: "SOCIAL WINTER OF CODE 2025",
       position: "5TH RANK",
       description: "OPEN SOURCE Contributer",
