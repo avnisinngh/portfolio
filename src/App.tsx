@@ -44,7 +44,7 @@ function App() {
     }
   ];
 
-  const experience = [
+  /*const experience = [
     {
       role: "CYBER SECURITY INTERN",
       company: "OMNITRIX BUISNESS SERVICES PVT. LTD",
@@ -52,7 +52,7 @@ function App() {
       description: "Researching emerging threats, vulnerabilities, and cybersecurity trends. ",
       color: "bg-[#f3c4fb]"
     }
-  ];
+  ];*/
 
   const hackathons = [
     {
@@ -276,6 +276,7 @@ function App() {
       </section>
 
       {/* Experience Section */}
+      
       <section id="experience" className="py-20 px-4 ">
       <div className="neo-brutalist bg-[#c8e7ff] p-8 md:p-16 mb-8">
         <div className="max-w-7xl mx-auto">
