@@ -44,6 +44,16 @@ function App() {
     }
   ];
 
+  const experience = [
+     {
+       role: "CYBER SECURITY INTERN",
+       company: "OMNITRIX BUISNESS SERVICES PVT. LTD",
+       period: "JAN 2025 - PRESENT",
+       description: "Researching emerging threats, vulnerabilities, and cybersecurity trends. ",
+       color: "bg-[#f3c4fb]"
+     }
+   ];
+ 
 
   const hackathons = [
     {
