@@ -43,7 +43,7 @@ function App() {
       color: "bg-[#ffcbf2]"
     }
   ];
-/*
+
   const experience = [
      {
        role: "CYBER SECURITY INTERN",
@@ -53,7 +53,7 @@ function App() {
        color: "bg-[#f3c4fb]"
      }
    ];
- */
+ 
 
   const hackathons = [
     {
