@@ -44,15 +44,15 @@ function App() {
     }
   ];
 
-  const experience = [
-     {
-       role: "CYBER SECURITY INTERN",
-       company: "OMNITRIX BUISNESS SERVICES PVT. LTD",
-       period: "JAN 2025 - PRESENT",
-       description: "Researching emerging threats, vulnerabilities, and cybersecurity trends. ",
-       color: "bg-[#f3c4fb]"
-     }
-   ];
+  // const experience = [
+  //    {
+  //      role: "CYBER SECURITY INTERN",
+  //      company: "OMNITRIX BUISNESS SERVICES PVT. LTD",
+  //      period: "JAN 2025 - PRESENT",
+  //      description: "Researching emerging threats, vulnerabilities, and cybersecurity trends. ",
+  //      color: "bg-[#f3c4fb]"
+  //    }
+  //  ];
  
 
   const hackathons = [
@@ -139,7 +139,7 @@ function App() {
             <a href="#about" className="hover:text-[#DAF5F0] font-bold">ABOUT</a>
             <a href="#coding" className="hover:text-[#FFB2AF] font-bold">CODING</a>
               <a href="#work" className="hover:text-[#FF6B6B] font-bold">PROJECT</a>
-              <a href="#experience" className="hover:text-[#4ECDC4] font-bold">EXPERIENCE</a>
+              <a href="#experience" className="hover:text-[#4ECDC4] font-bold">HACKTHON</a>
               <a href="#achi" className="hover:text-[#4ECDC4] font-bold">ACHIEVEMENTS</a>
               <a href="#skills" className="hover:text-[#FFE66D] font-bold">SKILLS</a>
               <a href="#contact" className="neo-brutalist-sm px-4 py-2 bg-black text-white hover:bg-[#FF6B6B] transition-colors">
@@ -247,7 +247,7 @@ function App() {
       <section id="work" className="py-20 px-4">
       <div className="neo-brutalist bg-[#c0fdff] p-8 md:p-16 mb-8">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12">PROJECSTS</h2>
+          <h2 className="text-4xl font-bold mb-12">PROJECTS</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
               <div
@@ -279,27 +279,7 @@ function App() {
       {/* Experience Section */}
       
       <section id="experience" className="py-20 px-4 ">
-      <div className="neo-brutalist bg-[#c8e7ff] p-8 md:p-16 mb-8">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12">EXPERIENCE</h2>
-          <div className="grid md:grid-cols-2 gap-8 mb-16">
-            {experience.map((exp, index) => (
-              <div
-                key={index}
-                className={`neo-brutalist neo-brutalist-hover ${exp.color} p-8bg-[#98c1d9] p-6 neo-brutalist-card group animate-scale transition-all`}
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <div className="flex items-center gap-4 mb-4">
-                  <Briefcase size={24} className="text-black" />
-                  <h3 className="text-2xl font-bold">{exp.role}</h3>
-                </div>
-                <p className="text-lg font-bold mb-2">{exp.company}</p>
-                <p className="text-sm mb-4">{exp.period}</p>
-                <p>{exp.description}</p>
-              </div>
-            ))}
-          </div>
-          </div>
+        <div className="neo-brutalist bg-[#c8e7ff] p-8 md:p-16 mb-8">
 
           <h2 id="achi" className="text-4xl font-bold mb-12">HACKATHONS & ACHIEVEMENTS</h2>
           <div className="grid md:grid-cols-2 gap-8">
