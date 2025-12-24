@@ -97,11 +97,11 @@ function App() {
   const skills = [
     {
       category: "Programming",
-      items: ["Java", "C", "Python", "JavaScript", "Tailwind CSS", "Solidity"]
+      items: ["Java", "C", "Python", "JavaScript",]
     },
     {
       category: "Web Technologies",
-      items: ["Node.js", "Reacts.js", "MongoDB", "Mongoose", "HTML", "CS"]
+      items: ["Node.js", "Reacts.js", "MongoDB", "Mongoose", "HTML", "CSS"]
     },
     {
       category: "Tools and Framework",
