@@ -8,13 +8,6 @@ function App() {
 
   const projects = [
     {
-      title: "PORT SCANNER",
-      description: " Python-based Port Scanner that scans a range of ports on a given target IP to check for open ports",
-      tech: ["Python", "Socket.IO", "Threading"],
-      link: "https://github.com/avnisinngh/Port-Scanner",
-      color: "bg-[#ffcbf2]"
-    },
-    {
       title: "OMNI AI",
       description: "Centralized AI platform",
       tech: ["AI/ML","TypeScript","MERN Stack"],
@@ -183,7 +176,7 @@ function App() {
                   <span className="text-[#a20ebb]">Multidimensional Creator & Developer</span>
                 </h1>
                 <p className="text-xl md:text-2xl max-w-2xl mb-8">
-                Crafting Digital Experiences with Code, Content,Open Source and Cybersecurity Curiosity.
+                Crafting Digital Experiences with Code, Content,Open Source and Curiosity.
                 </p>
                 <div className="flex gap-4">
                   <a href={"https://github.com/avnisinngh"} className="neo-brutalist-sm p-4 bg-black text-white hover:bg-[#FF6B6B] transition-colors">
@@ -214,7 +207,7 @@ function App() {
 
           <div className="overflow-hidden py-4 bg-black text-white">
             <p className="marquee text-xl font-bold whitespace-nowrap">
-              FULL STACK DEVELOPMENT • CYBERSECURITY • CODING 
+              FULL STACK DEVELOPMENT • CONTENT CREATION • CODING 
             </p>
           </div>
         </div>
